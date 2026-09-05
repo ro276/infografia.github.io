@@ -1,0 +1,54 @@
+html{
+ 
+background-image: url(data/fondo\ \(1\).png);
+
+}
+
+.limelight-regular {
+  
+  color: #FFF;
+  font-family: "Limelight", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.afacad {
+ color: #FFF; 
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+    color: black;
+    margin: 100px;
+    grid-template-rows: 3;
+ 
+}
+.titulo{
+  text-align: center;
+}
+.subtitulo{
+  text-align:center;
+}
+
+.nucleo1{
+  animation: alternate-reverse;
+
+}
+.content-izq{
+   display: grid;
+  grid-template-columns:  100px auto 100px;
+  padding: 30px;
+  animation-name: MyAnimation;
+   animation-duration: 4s;
+}
+
+@keyframes info1 {
+
+ 
+}
+@media screen {
+
+  
+}
