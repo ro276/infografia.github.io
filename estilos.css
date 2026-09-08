@@ -81,6 +81,12 @@ body {
             gap:200px;
 }
 
+#imagenMusica {
+    width: 100px;
+    cursor: pointer;
+}
+
+
 @keyframes info1 {
 
  
