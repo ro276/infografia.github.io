@@ -3,7 +3,28 @@ html{
 background-image: url(data/fondo\ \(1\).png);
 
 }
+.introduccion{
+margin: 60 180px;
+}
 
+
+.elegir{
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.TituloN1 {
+font-size: 64px;
+text-align: center;
+}
+
+.textito{
+  display: flex;
+  flex-direction: row;
+  margin-left: 170px;
+  column-gap: 477px;
+}
 h1{
   
   color: #FFF;
