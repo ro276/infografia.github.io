@@ -4,14 +4,14 @@ background-image: url(data/fondo\ \(1\).png);
 
 }
 
-.limelight-regular {
+h1{
   
   color: #FFF;
   font-family: "Limelight", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
-.afacad {
+p,h2 {
  color: #FFF; 
   font-family: "Afacad", sans-serif;
   font-optical-sizing: auto;
@@ -42,6 +42,22 @@ body {
   padding: 30px;
   animation-name: MyAnimation;
    animation-duration: 4s;
+}
+
+.grafico-fondo{
+  background-image: url(data/fondo_barra.png);
+            text-align:left;
+            flex-direction: row;
+            gap: 200px;
+            margin-left:10%;
+            margin-right:10%;
+}
+
+.plataformas{
+       display:flex;
+            text-align:center;
+            flex-direction: row;
+            gap:200px;
 }
 
 @keyframes info1 {
