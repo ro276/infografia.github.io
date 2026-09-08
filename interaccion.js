@@ -1,3 +1,26 @@
+const musica = document.getElementById("musica");
+const imagen = document.getElementById("imagenMusica");
+
+let reproduciendo = true;
+
+imagen.addEventListener("click", function() {
+
+    if (reproduciendo) {
+
+        musica.pause();
+        imagen.src = "data/mute_sonido.png";
+        reproduciendo = false;
+
+    } else {
+
+        musica.play();
+        imagen.src = "data/unmute_sonido.png";
+        reproduciendo = true;
+
+    }
+
+});
+
 document.addEventListener("DOMContentLoaded", function () {
 	var imagen = Array.prototype.find.call(document.querySelectorAll("img"), function (img) {
 		var referencia = decodeURIComponent(img.getAttribute("src") || "").toLowerCase();
