@@ -1,0 +1,92 @@
+html{
+ 
+background-image: url(data/fondo\ \(1\).png);
+
+}
+
+.introduccion{
+margin: 60 180px;
+}
+
+
+.elegir{
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.TituloN1 {
+font-size: 64px;
+text-align: center;
+}
+
+.textito{
+  display: flex;
+  flex-direction: row;
+  margin-left: 170px;
+  column-gap: 477px;
+}
+
+
+.limelight-regular {
+  
+  color: #FFF;
+  font-family: "Limelight", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.afacad {
+ color: #FFF; 
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.elegir{
+  margin-top: 100px;
+}
+
+
+body {
+    color: black;
+    margin: 100px;
+    grid-template-rows: 3;
+ 
+}
+.tituloI{
+  text-align: center;
+  font-size: 64px;
+  margin-bottom: 0px;
+}
+.subtituloI{
+  text-align:center;
+  font-size: 35px;
+  margin-top: 0px;
+}
+
+.nucleo1{
+  animation: alternate-reverse;
+
+}
+.content-izq{
+   display: flex;
+   flex-direction: row;
+   margin-left: 160px;
+  animation-name: MyAnimation;
+   animation-duration: 4s;
+}
+
+#imagenMusica {
+    width: 100px;
+    cursor: pointer;
+}
+
+@keyframes info1 {
+
+ 
+}
+@media screen {
+
+  
+}
